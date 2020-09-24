@@ -1,0 +1,30 @@
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\Pixel Bot Mono.exe
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\Pixel Bot Mono.deps.json
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\Pixel Bot Mono.runtimeconfig.json
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\Pixel Bot Mono.runtimeconfig.dev.json
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\Pixel Bot Mono.dll
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\Pixel Bot Mono.pdb
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\obj\Debug\netcoreapp3.1\Pixel Bot Mono.csprojAssemblyReference.cache
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\obj\Debug\netcoreapp3.1\Pixel Bot Mono.AssemblyInfoInputs.cache
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\obj\Debug\netcoreapp3.1\Pixel Bot Mono.AssemblyInfo.cs
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\obj\Debug\netcoreapp3.1\Pixel Bot Mono.csproj.CoreCompileInputs.cache
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\obj\Debug\netcoreapp3.1\Pixel Bot Mono.csproj.CopyComplete
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\obj\Debug\netcoreapp3.1\Pixel Bot Mono.dll
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\obj\Debug\netcoreapp3.1\Pixel Bot Mono.pdb
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\obj\Debug\netcoreapp3.1\Pixel Bot Mono.genruntimeconfig.cache
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\Content\Character_0.xnb
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\Content\simple_character_idle_.xnb
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\Content\Fonts\default.xnb
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\Content\Character_1.xnb
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\Content\Character_2.xnb
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\Content\KennyArt\Sprites.xnb
+C:\Users\Caitl\Desktop\PixelBot Mono\Pixel Bot Mono\Pixel Bot Mono\bin\Debug\netcoreapp3.1\Content\KennyArt\set2_tiles.xnb
