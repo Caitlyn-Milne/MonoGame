@@ -51,11 +51,13 @@ namespace Pixel_Bot_Mono {
 
             _graphics.ApplyChanges();
 
-            new FollowCamera(new PlayerController(), new Vector2(-50,0),3);
-
-            
+            new StaticCamera();
 
             new Background();
+
+            new PlayerController();
+
+
 
             base.Initialize();
         }
@@ -89,7 +91,9 @@ namespace Pixel_Bot_Mono {
             foreach (ActorObject actorObject in ActorObject.ActorObjects) {
                 actorObject.Update(gameTime);
             }
-
+            foreach (ActorObject actorObject in ActorObject.ActorObjects) {
+                actorObject.LateUpdate();
+            }
 
 
             base.Update(gameTime);
@@ -120,7 +124,7 @@ namespace Pixel_Bot_Mono {
             returnRect.Height = (int)Math.Ceiling(returnRect.Height * vh * (100/Camera.currentCamera.Size.Y));
 
             returnRect.X = (int)Math.Ceiling((returnRect.X - Camera.currentCamera.Location.X)* vw);
-            returnRect.Y = (int)Math.Ceiling((returnRect.Y - Camera.currentCamera.Location.Y)* vh);
+            returnRect.Y -= (int)Math.Ceiling((returnRect.Y - Camera.currentCamera.Location.Y)* vh);
 
             returnRect.Y += (int)Math.Ceiling((vh * 100) - returnRect.Height);
             return returnRect;

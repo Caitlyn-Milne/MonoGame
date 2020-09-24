@@ -8,6 +8,8 @@ using System.Text;
 
 namespace Pixel_Bot_Mono {
     public class PlayerController : Controller {
+        VelocityComponent velocityComponent;
+
 
         Animator animator = new Animator();
 
@@ -19,9 +21,11 @@ namespace Pixel_Bot_Mono {
 
         public PlayerController() : base() {
             Size = new Vector2(4, 6.25f);
-            Location = new Vector2(150, 0);
+            Location = new Vector2(150,90);
+            velocityComponent = new VelocityComponent(this);
+            velocityComponent.gravity = 7.5f;
+            velocityComponent.gravityAcc = 2.5f;
             
-
         }
 
         public override void Load() {
@@ -77,6 +81,7 @@ namespace Pixel_Bot_Mono {
             _spriteBatch.Draw(texture, screenSpaceLocation, spriteLocation, Color.White);*/
         }
         public override void Update(GameTime _gametime) {
+            base.Update(_gametime);
             if (Game1.KeyboardState.IsKeyDown(Keys.Left)) {
                 Translate(new Vector2(-moveSpeed * ((float)_gametime.ElapsedGameTime.TotalMilliseconds / 16), 0));
                 if (animator.IsPlaying("idle")) {
@@ -95,6 +100,12 @@ namespace Pixel_Bot_Mono {
             else if(!animator.IsPlaying("idle")){
                 animator.PlayAnimation("idle");
                 animator.StopAnimation("run");
+            }
+
+            //TODO remove temp jump code
+            if (Game1.KeyboardState.IsKeyDown(Keys.Space) && Location.Y == 0) {
+                velocityComponent.velocity = new Vector2(velocityComponent.velocity.X, 0);
+                velocityComponent.AddForce(new Vector2(0, 3));
             }
 
             animator.Progress();

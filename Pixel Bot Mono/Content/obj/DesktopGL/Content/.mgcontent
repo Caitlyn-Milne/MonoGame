@@ -4,12 +4,12 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Caitl/Desktop/PixelBot Mono/Pixel Bot Mono/Pixel Bot Mono/Content/Character_0.png</File>
-    <File>C:/Users/Caitl/Desktop/PixelBot Mono/Pixel Bot Mono/Pixel Bot Mono/Content/Character_1.png</File>
-    <File>C:/Users/Caitl/Desktop/PixelBot Mono/Pixel Bot Mono/Pixel Bot Mono/Content/Character_2.png</File>
-    <File>C:/Users/Caitl/Desktop/PixelBot Mono/Pixel Bot Mono/Pixel Bot Mono/Content/Fonts/default.spritefont</File>
-    <File>C:/Users/Caitl/Desktop/PixelBot Mono/Pixel Bot Mono/Pixel Bot Mono/Content/KennyArt/set2_tiles.png</File>
-    <File>C:/Users/Caitl/Desktop/PixelBot Mono/Pixel Bot Mono/Pixel Bot Mono/Content/KennyArt/Sprites.png</File>
+    <File>C:/Users/Caitl/Desktop/PixelBot Mono/Pixel Bot Mono/Repo/Pixel Bot Mono/Content/Character_0.png</File>
+    <File>C:/Users/Caitl/Desktop/PixelBot Mono/Pixel Bot Mono/Repo/Pixel Bot Mono/Content/Character_1.png</File>
+    <File>C:/Users/Caitl/Desktop/PixelBot Mono/Pixel Bot Mono/Repo/Pixel Bot Mono/Content/Character_2.png</File>
+    <File>C:/Users/Caitl/Desktop/PixelBot Mono/Pixel Bot Mono/Repo/Pixel Bot Mono/Content/Fonts/default.spritefont</File>
+    <File>C:/Users/Caitl/Desktop/PixelBot Mono/Pixel Bot Mono/Repo/Pixel Bot Mono/Content/KennyArt/set2_tiles.png</File>
+    <File>C:/Users/Caitl/Desktop/PixelBot Mono/Pixel Bot Mono/Repo/Pixel Bot Mono/Content/KennyArt/Sprites.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

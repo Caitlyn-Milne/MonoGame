@@ -16,13 +16,28 @@ namespace Pixel_Bot_Mono {
 
         Color tint = Color.White;
 
+        List<Component> components = new List<Component>();
+
         public ActorObject() :base(){
             ActorObjects.Add(this);
         }
 
         protected abstract Texture2D LoadTexture();
 
-        public abstract void Update(GameTime _gameTime);
+        public virtual void Update(GameTime _gameTime) {
+            foreach (Component component in components) {
+                component.Update();
+            }
+        }
+
+        /// <summary>
+        /// Called after update for processes that need code in otherr classes to already of been run
+        /// </summary>
+        public virtual void LateUpdate() {
+            foreach (Component component in components) {
+                component.LateUpdate();
+            }
+        }
 
         public virtual void Load() {
             texture = LoadTexture();
@@ -33,6 +48,10 @@ namespace Pixel_Bot_Mono {
             if (!Camera.currentCamera.SizeAndLocation.IntersectsWith(SizeAndLocation))
                 return;
             _spriteBatch.Draw(texture, Game1.ConvertToScreenSpace(this), spriteLocation, tint);
+        }
+
+        public void AddComponent(Component component) {
+            components.Add(component);
         }
 
     }

@@ -45,7 +45,11 @@ namespace Pixel_Bot_Mono {
             transforms.Add(this);
         }
         public void Translate(Vector2 _direction) {
-            Location += _direction;       
+            Location += _direction;
+            //TODO remove this temp code
+            if (Location.Y < 0) {
+                Location = new Vector2(Location.X,0);
+            }
         }
     }
 }
